@@ -15,7 +15,7 @@ $$
   m(s)=(1-2^{-s})(2\cdot 2^{-s}-1).
 $$
 
-For $0<\Re s<1$, $1/2<|2^{-s}|<1$, so every pole survives. For real $s$ in that interval $m(s)>0$, as required by the original `PoleData` structure. An analytic, nonvanishing multiplier preserves a simple pole with residue multiplied by $m(\rho)$. A finite initial interval has no effect on the window hypothesis. These observations transfer the archive's criterion to each admissible positive-weight Dirichlet family. [Original pole data](https://github.com/Deicyde/riemann-hypothesis/blob/40e56bab026552e089d7afcfeff08d2defb9c005/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauZeroFreeCriterion.lean#L17) · [Transfer proof](DelayedPole.lean)
+For $0<\Re s<1$, $1/2<|2^{-s}|<1$, so every pole survives. For real $s$ in that interval $m(s)>0$, as required by the original `PoleData` structure. An analytic, nonvanishing multiplier preserves a simple pole with residue multiplied by $m(\rho)$. A finite initial interval has no effect on the window hypothesis. These observations transfer the archive's criterion to each admissible positive-weight Dirichlet family. [Original pole data](https://github.com/Deicyde/riemann-hypothesis/blob/40e56bab026552e089d7afcfeff08d2defb9c005/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauZeroFreeCriterion.lean#L15) · [Transfer proof](DelayedPole.lean)
 
 
 The family observable is `gm F`. The ramp calculation above describes its zeta specialization. In general the proof uses the family’s `PoleData` and `WindowHypU` as defined in the pinned source. [Window and pole definitions](https://github.com/Deicyde/riemann-hypothesis/blob/40e56bab026552e089d7afcfeff08d2defb9c005/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauZeroFreeCriterion.lean)
