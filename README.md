@@ -45,8 +45,8 @@ The build directory can begin empty. Reusing a dependency cache requires the sam
 
 The Linux entry point checks the SHA-256 manifest before downloading the pinned dependencies and compares the resulting kernel and axiom summary with the recorded run.
 
-[Recorded verification output](evidence/check.txt) · [SHA-256 manifest](SHA256SUMS) · [Tagged publication](https://github.com/leecrossley/dirichlet-window-transfer/releases/tag/v1.0.0)
+[Recorded verification output](evidence/check.txt) · [SHA-256 manifest](SHA256SUMS) · [Tagged publication](https://github.com/leecrossley/dirichlet-window-transfer/releases/tag/v1.0.1)
 
 ## Related result
 
-[Specialization to a sum of ordinary rational primes](https://github.com/leecrossley/prime-window-rh-criterion/tree/v1.0.0)
+[Specialization to a sum of ordinary rational primes](https://github.com/leecrossley/prime-window-rh-criterion/tree/v1.0.1)
