@@ -1,8 +1,8 @@
 # A delayed-difference window criterion for Dirichlet families
 
-This is a Lean proof of a reusable step. Take the observable $g$ attached to a family of Dirichlet $L$-functions and form the delayed difference $-g(u)+3g(u-\log2)-2g(u-2\log2)$. The proof shows that this keeps every pole the upstream Landau-type criterion relies on. A one-sided bound for the difference on suitable windows then rules out zeros with real part above $\theta$ for every member of the family.
+This is a Lean proof of a reusable step. Take the observable $g$ attached to a family of Dirichlet $L$-functions and form the delayed difference $-g(u)+3g(u-\log2)-2g(u-2\log2)$. The proof shows that this keeps every pole the upstream Landau-type criterion relies on. For $0<\theta<1$, a one-sided bound of exponent $\theta$ for the difference on suitable windows then rules out zeros with real part above $\theta$ for every member of the family.
 
-The delayed difference is what a compactly supported tent weight looks like in log coordinates, so this is the step that lets the criterion be applied to such a weight. The specialisation to a sum over ordinary primes is in a companion repository.
+The delayed difference is what a compactly supported tent weight looks like in log coordinates, so this is the step that lets the criterion be applied to such a weight. The specialization to a sum over ordinary primes is in a companion repository.
 
 ## Statement
 
@@ -16,7 +16,7 @@ In Lean these are `ThetaTransfer.compactDifference_poleData` and `ThetaTransfer.
 2. For $0<\Re s<1$, $1/2<|2^{-s}|<1$, so every pole survives. For real $s$ in that interval $m(s)>0$, as required by the original `PoleData` structure.
 3. An analytic, nonvanishing multiplier preserves a simple pole with residue multiplied by $m(\rho)$. A finite initial interval has no effect on the window hypothesis.
 
-For zeta the difference is the prime-power deficit of the dyadic tent. That calculation is in [PROOF.md](PROOF.md).
+For zeta and $u>2\log2$, the difference is the prime-power deficit of the dyadic tent at $e^u/4$. That calculation is in [PROOF.md](PROOF.md).
 
 ## Verification
 
