@@ -1,5 +1,7 @@
 # A delayed-difference window criterion for Dirichlet families
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24410862.svg)](https://doi.org/10.5281/zenodo.24410862)
+
 This is a Lean proof of a reusable step. Take the observable $g$ attached to a family of Dirichlet $L$-functions and form the delayed difference $-g(u)+3g(u-\log2)-2g(u-2\log2)$. The proof shows that this keeps every pole the upstream Landau-type criterion relies on. For $0<\theta<1$, a one-sided bound of exponent $\theta$ for the difference on suitable windows then rules out zeros with real part above $\theta$ for every member of the family.
 
 The delayed difference is what a compactly supported tent weight looks like in log coordinates, so this is the step that lets the criterion be applied to such a weight. The specialization to a sum over ordinary primes is in a companion repository.
